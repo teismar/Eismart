@@ -1,3 +1,4 @@
+
 p{
     font-family: 'Roboto Slab',serif;
 }
@@ -38,10 +39,14 @@ h1{
     width: 100%;
     height: 12.5rem;
 }
-footer{
-    height: 0rem;
+.foot{
+    width: 100%;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
-/* Full-width input fields */
+
+/*Login*/
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 0.75rem 1.25rem;
@@ -51,7 +56,8 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
   }
   
-  /* Set a style for all buttons */
+ 
+
   .loginbtn {
     color: #fff;
     background-color: #007bff;
@@ -70,7 +76,7 @@ input[type=text], input[type=password] {
     opacity: 0.8;
   }
   
-  /* Extra styles for the cancel button */
+
   .cancelbtn {
     width: auto;
     padding: 0.625rem 1.125rem;
@@ -91,7 +97,7 @@ input[type=text], input[type=password] {
       
   }
   
-  /* Center the image and position the close button */
+ 
   .imgcontainer {
     text-align: center;
     margin: 1.5rem 0 0.75rem 0;
@@ -113,27 +119,27 @@ input[type=text], input[type=password] {
     padding-top: 1rem;
   }
   
-  /* The Modal (background) */
+
   .modal {
-    display: none; /* Hidden by default */
+    display: none; 
     position:fixed;
-    z-index: 1; /* Sit on top */
+    z-index: 1; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
     padding-top: 3.75rem;
   }
   
-  /* Modal Content/Box */
+  
   .modal-content {
     background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    margin: 5% auto 15% auto; 
     border: 0.0625rem solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
+    width: 50%; 
   }
 
   .inputlogin{
@@ -149,7 +155,7 @@ input[type=text], input[type=password] {
         padding-left: 6.25rem;
     }
   
-  /* The Close Button (x) */
+
   .close {
     position: absolute;
     right: 1.5625rem;
@@ -165,7 +171,7 @@ input[type=text], input[type=password] {
     cursor: pointer;
   }
   
-  /* Add Zoom Animation */
+ 
   .animate {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
@@ -181,7 +187,7 @@ input[type=text], input[type=password] {
     to {transform: scale(1)}
   }
   
-  /* Change styles for span and cancel button on extra small screens */
+ 
   @media screen and (max-width: 18.75rem) {
     span.psw {
        display: block;

@@ -20,17 +20,17 @@ h1{
 footer{
     height: 0rem;
 }
-/*.contact-title{
+/*.register-title{
     margin-top: 100px;
     color: #fff;
     text-transform: uppercase;
     transition: all 4s ease-in-out;
 }
-.contact-title h1{
+.register-title h1{
     font-size: 32px;
     line-height: 10px;
 }
-.contact-title h2{
+.register-title h2{
     font-size: 16px;
 }*/
 /* Kontakt ***************************************************************************************/
@@ -97,13 +97,13 @@ form textarea {
     color: #D8D8D8;
     }
 
-.contactform{
+.registerform{
     margin-left: 41.875rem;
 }
-.contacttitle h3{ 
+.registertitle h3{ 
     text-align: center;
 }
-.contact{
+.register{
     margin-top: 12.5rem;
 }
 
