@@ -35,7 +35,7 @@ footer{
 }*/
 /* Kontakt ***************************************************************************************/
 
-form input, textarea {
+form input{
     font-family: 'Roboto Slab', serif;
     font-size: 0.9375rem;
     margin-bottom: 0.625rem;
@@ -54,11 +54,6 @@ form input {
     height: 1.875rem;
 }
 
-form textarea {
-    width: 34.375rem;
-    height: 12.5rem;
-    resize: none;    
-}
 
 
 .input_text {
@@ -87,8 +82,8 @@ form textarea {
 .button {
     background-color: #D8D8D8;
     color: #494949;
-    width: 34.375rem;
-    height: 3.125rem;
+    width: 10rem;
+    height: 2.5rem;
 }
 
 
@@ -100,10 +95,11 @@ form textarea {
 .registerform{
     margin-left: 41.875rem;
 }
-.registertitle h3{ 
-    text-align: center;
-}
+
 .register{
     margin-top: 12.5rem;
+    margin-bottom: 12.5rem;
+    outline: none;
 }
+
 
