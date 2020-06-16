@@ -142,53 +142,53 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-   <!-- The Modal -->
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'"
-class="close" title="Close Modal">&times;</span>
-
-  <!-- Modal Content -->
-  <form class="modal-content animate" method ="POST" action="php/login.php">
-    <div class="imgcontainer">
-      <img src="img/avatar.png" alt="Avatar" class="avatar">
-    </div>
-
-    <div class="container">
-      <div class="inputlogin">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <button class="btn login2btn" type="submit">Login</button>
-      <label>
-        <div class="checkbox">
-          <input  type="checkbox" checked="checked" name="remember"> Remember me
-        </div>
-        </label>
-      </div>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn cancelbtn">Cancel</button>
-      <span class="psw">Password vergessen?<a href="#"> Zurücksetzten!</a></span>
-      <spam class="signup">Noch keinen Account?<a href="register.html"> Registriere dich hier!</a></spam>
-    </div>
-  </form>
-  <script>
-    // Get the modal
-    var modal = document.getElementById('id01');
-    
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-    </script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      
+         <!-- The Modal -->
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'"
+      class="close" title="Close Modal">&times;</span>
+      
+        <!-- Modal Content -->
+        <form class="modal-content animate" method ="POST" action="php/login.php">
+          <div class="imgcontainer">
+            <img src="img/avatar.png" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <div class="inputlogin">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+      
+            <button class="btn login2btn" type="submit">Login</button>
+            <label>
+              <div class="checkbox">
+                <input  type="checkbox" checked="checked" name="remember"> Remember me
+              </div>
+              </label>
+            </div>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn cancelbtn">Cancel</button>
+            <span class="psw">Password vergessen?<a href="#"> Zurücksetzten!</a></span>
+            <spam class="signup">Noch keinen Account?<a href="register.html"> Registriere dich hier!</a></spam>
+          </div>
+        </form>
+        <script>
+          // Get the modal
+          var modal = document.getElementById('id01');
+          
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          }
+          </script>
 
 </body>
 
